@@ -1,0 +1,38 @@
+.card{
+    background-color: transparent;
+    border: none;
+}
+ul li{
+    background-color: transparent!important;
+    border-bottom: 2px solid white;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    border-radius: 0;
+    width: 108px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+input[type="text"]::placeholder {
+    color: #e0e0e0;
+}
+input[type="text"]:focus {
+    border: 2px solid #d6d6d6;
+    border-radius: 25px;
+    box-shadow: none;
+    width: 88%!important;
+}
+input[type="checkbox"]{
+    font-size: 32px;
+    border: 1px solid black;
+    margin-top: -.5px;
+}
+input:focus{
+    box-shadow: none;
+}
+input:checked{
+    background-color: rgb(31, 170, 61);
+    box-shadow: none;
+    border: none;
+}
